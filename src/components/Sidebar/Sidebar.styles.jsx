@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const Aside = styled.aside`
   background-color: #fff;
+  width:320px;
 `;
 
 export const Header = styled.header`
@@ -20,6 +21,8 @@ export const MenuItem = styled.li`
   display: flex;
   align-items: center;
   cursor: pointer;
+  padding-left: 24px;
+  margin-top: 24px;
   &:hover {
     & svg {
       fill: #ff6b0a;
