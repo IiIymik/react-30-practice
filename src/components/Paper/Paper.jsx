@@ -12,7 +12,7 @@ Paper.propTypes = {
 };
 
 Paper.defaultProps = {
-  gap: 16,
+  gap: 32,
 };
 
 export default Paper;
