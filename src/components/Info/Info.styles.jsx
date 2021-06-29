@@ -8,3 +8,10 @@ export const Container = styled.div`
   margin-left: 32px;
   margin-right: 32px;
 `;
+
+export const Box = styled.div`
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: #010101;
+`;
