@@ -1,15 +1,18 @@
 import styled from "@emotion/styled";
 
+export const Break = styled.br``;
 
 export const Container = styled.div`
-display: flex;
-width: 1056px;
+display: grid;
+/* width: 1056px; */
 margin-top: 40px;
 margin-left: 32px;
+margin-right: 32px;
 `;
 export const Box = styled.div`
 display: flex;
-justify-content: center;
+justify-content: start;
+align-items: center;
 `;
 
 export const Name = styled.p`

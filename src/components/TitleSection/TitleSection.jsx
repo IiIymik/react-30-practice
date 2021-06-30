@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container, Img, Text } from './TitleSection.styles';
 
-function TitleSectin({text}) {
+function TitleSectin({text, src}) {
     return <Container>
-        <Img src="./images/cat.png"/>
+        <Img src={src}/>
         <Text>{text }</Text>
     </Container>
 }
