@@ -1,26 +1,19 @@
 import React from "react";
+import { MainContainer } from "./Main.styles";
 import Info from "../Info/Info";
-import TitlePage from '../TitlePage/TitlePage';
-import TitleSection from "../TitleSection/TitleSection";
-import Teachers from "../Teachers/Teachers";
-import Btn from "../Button/Button";
-import Cities from '../Cities/Cities';
-import Faculties from '../Faculties/Faculties';
+import PageHeader from "../PageHeader/PageHeader";
+import Tutors from "../Tutors/Tutors";
+import Cities from "../Cities/Cities";
+import Departments from "../Departments/Departments";
 function Main() {
   return (
-    <main>
-      <TitlePage/>
+    <MainContainer>
+      <PageHeader />
       <Info />
-      <TitleSection text="Преподаватели" src="/images/cat.png" />
-      <Teachers />
-      <Btn title="Добавить преподавателя" />
-      <TitleSection text="Города" src="/images/pin.png" />
-      <Cities/>
-      <Btn title="Добавить город" />
-      <TitleSection text="Факультеты" src="/images/robot.png" />
-      <Faculties/>
-      <Btn title="Добавить факультет"/>
-    </main>
+      <Tutors />
+      <Cities />
+      <Departments />
+    </MainContainer>
   );
 }
 

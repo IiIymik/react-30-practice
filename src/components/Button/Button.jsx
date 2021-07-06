@@ -1,9 +1,7 @@
-import React from 'react'
-import { FaPlusCircle } from 'react-icons/fa';
-import { Button, Text } from './Button.styles';
-
-function Btn({ title }) {
-    return (<Button><FaPlusCircle size="16px" color="#fff" style={{marginRight: "10px"}}/><Text>{title }</Text></Button>)
+import React from "react";
+import { CustomButton } from "./Button.styled";
+function Button({ text, onClick }) {
+  return <CustomButton onClick={onClick}>{text}</CustomButton>;
 }
 
-export default Btn;
+export default Button;

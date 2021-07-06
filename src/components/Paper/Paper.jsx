@@ -1,4 +1,3 @@
-
 import React from "react";
 import PropTypes from "prop-types";
 import { PaperContainer } from "./Paper.styles";
@@ -12,7 +11,7 @@ Paper.propTypes = {
 };
 
 Paper.defaultProps = {
-  gap: 32,
+  gap: 16,
 };
 
 export default Paper;
